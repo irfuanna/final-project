@@ -1,0 +1,19 @@
+img{
+     margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+div.div{
+  background-image: linear-gradient(to bottom left ,yellow,lightyellow);
+}
+h1.heading1::first-letter{
+    color:yellow;
+    font-size: 2cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
